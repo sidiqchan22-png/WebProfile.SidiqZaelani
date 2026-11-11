@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website profil pribadi - UTS Pemrograman Berbasis Web, Universitas Widyatama">
+  <title>Profil Pribadi | SIDIQ ZAELANI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#beranda" class="logo">Welcome To My Profil<span>.</span></a>
+
+    <button id="menuToggle" class="menu-toggle" aria-label="Buka menu" aria-expanded="false">&#9776;</button>
+
+    <nav id="navMenu" class="nav-menu">
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#keahlian">Keahlian</a>
+      <a href="#portofolio">Portofolio</a>
+      <a href="#kontak">Kontak</a>
+      <button id="themeToggle" class="theme-toggle" aria-label="Ganti tema">🌙 Mode Gelap</button>
+    </nav>
+  </header>
+  <main>
+    <section id="beranda" class="hero">
+      <div class="hero-text">
+        <p class="sapaan" id="sapaan">Halo!</p>
+        <h1>Saya <span class="highlight">SIDIQ ZAELANI</span></h1>
+        <p class="subjudul">Mahasiswa Sistem Informasi yang tertarik pada pengembangan web dan teknologi juga aktif dalam berorganisasi juga komunitas.</p>
+        <ul class="identitas">
+          <li><strong>Nama Lengkap</strong> : SIDIQ ZAELANI</li>
+          <li><strong>NIM</strong> : 251121002</li>
+          <li><strong>Kelas</strong> : SISTEM INFORMASI REG.B1</li>
+          <li><strong>Program Studi</strong> : Sistem Informasi, Fakultas Teknik</li>
+          <li><strong>Kampus</strong> : Universitas Widyatama</li>
+        </ul>
+
+        <div class="tombol-group">
+          <button id="btnSapa" class="btn">👋 Klik untuk Menyapa</button>
+          <a href="#kontak" class="btn btn-outline">Hubungi Saya</a>
+        </div>
+        <p id="pesanSapa" class="pesan-sapa" aria-live="polite"></p>
+      </div>
+      <div class="hero-gambar">
+        <img src="assets/foto-profil.jpeg" alt="Foto profil SIDIQ ZAELANI" width="320" height="320">
+      </div>
+    </section>
+    <section id="tentang" class="section">
+      <h2>Tentang Saya</h2>
+      <div class="tentang-grid">
+        <img src="assets/banner-web.jpeg" alt="Ilustrasi pengembangan website" class="gambar-tentang" width="480" height="300" loading="lazy">
+        <div>
+          <p>
+            Saya adalah mahasiswa program studi Sistem Informasi di Universitas Widyatama, Bandung.
+            Saat ini saya sedang mempelajari pemrograman berbasis web, mulai dari struktur halaman
+            dengan <strong>HTML</strong>, tampilan dengan <strong>CSS</strong>, hingga interaksi
+            dengan <strong>JavaScript</strong>.
+          </p>
+          <p>
+            Saya juga aktif dalam berbagai kegiatan organisasi dan komunitas, yang membantu saya mengembangkan keterampilan kepemimpinan dan kerja tim.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="keahlian" class="section section-alt">
+      <h2>Keahlian</h2>
+      <p class="deskripsi">Tingkat penguasaan teknologi yang sedang saya pelajari.</p>
+      <div class="tabel-wrap">
+        <table>
+          <caption>Daftar Keahlian dan Tingkat Penguasaan</caption>
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Keahlian</th>
+              <th>Kegunaan</th>
+              <th>Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>HTML</td><td>Membangun struktur dan konten halaman</td><td>Dasar</td></tr>
+            <tr><td>2</td><td>Microsoft Office (word,Excell) </td><td>Membuat dokumen dan laporan keuangan</td><td>Menengah</td></tr>
+            <tr><td>3</td><td>Kepemimpinan</td><td>Memimpin tim dan mengelola proyek</td><td>Menengah</td></tr>
+            <tr><td>4</td><td>Bahasa Arab</td><td>Communicating in Arabic</td><td>Fasih</td></tr>
+            <tr><td>5</td><td>Bahasa Inggris</td><td>Communicating in English</td><td>Cukup</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="portofolio" class="section">
+      <h2>Portofolio &amp; Kegiatan</h2>
+      <p class="deskripsi">Ringkasan tugas dan proyek yang pernah saya kerjakan.</p>
+      <div class="tabel-wrap">
+        <table>
+          <caption>Daftar Proyek dan Kegiatan Akademik</caption>
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Organisasi/Kegiatan </th>
+              <th>Divisi/Keahlian </th>
+              <th>Tahun</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>Website Profil Pribadi (UTS)</td><td>HTML, CSS, JavaScript</td><td>2026</td><td>Selesai</td></tr>
+            <tr><td>2</td><td>Paramuda Indonesia</td><td>Div.Public Relations</td><td>2026</td><td>Berjalan</td></tr>
+            <tr><td>3</td><td>Organisasi Pondok Pesantren Modern (OPPD) </td><td>Div.Pendidikan dan Dakwah</td><td>2023-2024</td><td>Selesai</td></tr>
+            <tr><td>4</td><td>Himpunan Mahasiswa Sistem Informasi (HIMASI) </td><td>Departemen Eksternal</td><td>2026</td><td>Berjalan</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="kontak" class="section section-alt">
+      <h2>Kontak</h2>
+      <div class="kontak-grid">
+        <form id="formKontak" novalidate>
+          <label for="nama">Nama</label>
+          <input type="text" id="nama" name="nama" placeholder="Nama kamu">
+          <small class="error" id="errNama"></small>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="nama@email.com">
+          <small class="error" id="errEmail"></small>
+
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan (minimal 10 karakter)"></textarea>
+          <small class="error" id="errPesan"></small>
+
+          <button type="submit" class="btn">Kirim Pesan</button>
+          <p id="hasilForm" class="hasil-form" aria-live="polite"></p>
+        </form>
+
+        <div class="info-kontak">
+          <h3>Temukan Saya</h3>
+          <ul>
+            <li>📧 <a href="mailto:sidiqchan22@icloud.com">Email</a></li>
+            <li>💻 <a href="https://github.com/sidiqchan22-png/website-profil.git" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li>📷 <a href="https://www.instagram.com/zeels_022?psln=MWl1Nng3d3pwNmQ0dA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li>💼 <a href="https://www.linkedin.com/in/sidiqzaelani/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; <span id="tahun">2026</span> SIDIQ ZAELANI · 251121002 · SISTEM INFORMASI REG.B1</p>
+    <p>UTS Pemrograman Berbasis Web · Universitas Widyatama</p>
+  </footer>
+
+  <button id="btnAtas" class="btn-atas" aria-label="Kembali ke atas">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
